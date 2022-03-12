@@ -1,24 +1,45 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import LoggedIn from "./components/state/LoggedIn";
 
 function App() {
+  // const personName = {
+  //   first: "Lelin",
+  //   last: "Rashed",
+  // };
+
+  // const nameList = [
+  //   {
+  //     first: "Lelin",
+  //     last: "Rashed",
+  //   },
+  //   {
+  //     first: "Lelin",
+  //     last: "Rashed",
+  //   },
+  //   {
+  //     first: "Lelin",
+  //     last: "Rashed",
+  //   },
+  // ];
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Person name={personName} />
+      <Greet name="rashed" isLoggedIn={true} messageCount={10} />
+      <PersonList names={nameList} />
+      <Status status="error" />
+      <Heading>Placeholder text from app.tsx</Heading>
+      <Oscar>
+        <Heading>Oscar goes to Leonardo Dicpario!</Heading>
+      </Oscar> */}
+
+      {/* <Button handleClick={(id) => console.log("Handle Click", id)} />
+      <Input value="" handleChange={(event) => console.log(event)} /> */}
+
+      {/* <Container styles={{ border: `1px solid black` }} /> */}
+
+      <LoggedIn />
+    
     </div>
   );
 }
